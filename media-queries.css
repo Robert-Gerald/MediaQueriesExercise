@@ -158,12 +158,16 @@ h1{
 section{
     display: flex;
 }
-.main h2{
+.main .sub-section{
     display: flex;
-    flex-wrap: wrap;
 }
-p{
-    display: flex;
-    flex-wrap: wrap;
+
+.main {
+    flex-grow: 1;
 }
+
+.sub-section {
+    flex-grow: 2;
+}
+
 }
