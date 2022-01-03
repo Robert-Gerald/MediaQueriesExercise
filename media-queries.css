@@ -4,7 +4,7 @@
     font-family: Arial;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
 
     body {
         display: flex;
@@ -111,22 +111,9 @@
         padding: 12px;
     }
 
-
-
-    /*.main > h2{*/
-    /*    padding: 8px;*/
-    /*}*/
-
-    /*p{*/
-    /*    padding: 8px;*/
-    /*}*/
-
-    /*.main > p {*/
-    /*    margin-bottom: 10px;*/
-    /*}*/
 }
 
-@media screen and (min-width:321px ) {
+@media screen and (min-width:768px) { /*Desktop view*/
 
 .hidden-on-desktop{
     display: none;
@@ -135,10 +122,6 @@ nav{
     /*float: left;*/
     display: flex;
     justify-content: flex-end;
-
-
-
-
 }
 .nav-links {
     display: flex;
@@ -146,39 +129,41 @@ nav{
     margin-top: auto;
 /*justify-content: flex-end;*/
 }
+
 .nav-links li {
     display: flex;
-
     /*justify-items: flex-end;*/
     list-style: none;
 }
+
 .nav-links li a{
     /*display: flex;*/
     /*justify-content: space-around;*/
-   padding: 10px;
+    padding: 10px;
 }
+
 h1{
     float: left;
     display: inline-block;
-   padding: 8px;
+    padding: 8px;
     font-size: 55px;
 }
-    .header-img > img {
-        height: 385px;
-        width: calc( 100% - 24px);
-        display: flex;
-        justify-content: center;
-        padding: 12px;
-    }
-    section{
-        display: flex;
-
-    }
-    .main h2{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    p{
-        display: flex;
-    }
+.header-img > img {
+    height: 385px;
+    width: calc( 100% - 24px);
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+section{
+    display: flex;
+}
+.main h2{
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
+}
 }
