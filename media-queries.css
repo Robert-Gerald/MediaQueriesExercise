@@ -110,7 +110,6 @@
         margin-top: auto;
         padding: 12px;
     }
-
 }
 
 @media screen and (min-width:768px) { /*Desktop view*/
@@ -163,11 +162,11 @@ section{
 }
 
 .main {
-    flex-grow: 1;
+    width: 66%;
 }
 
 .sub-section {
-    flex-grow: 2;
+    width: 33%;
 }
 
 }
